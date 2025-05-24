@@ -54,19 +54,19 @@ If you don't have Flutter installed, follow the official installation guide:
 ## Project Structure
 
 lib/
-├── app/                    # App-level configurations
-├── core/                   # Core utilities and shared code
-│   ├── di/                # Dependency injection
-│   ├── network/           # Network configurations
-│   ├── routes/            # App routing
-│   └── utils/             # Utility classes and constants
-├── features/              # Feature modules
-│   ├── reels/            # Reels feature
-│   │   ├── data/         # Data layer (repositories, data sources)
-│   │   ├── domain/       # Domain layer (entities, use cases)
-│   │   └── presentation/ # Presentation layer (pages, widgets, BLoC)
-│   └── splash/           # Splash screen feature
-└── main.dart             # App entry point
+    app/                    # App-level configurations
+    core/                   # Core utilities and shared code
+        di/                # Dependency injection
+        network/           # Network configurations
+        routes/            # App routing
+        utils/             # Utility classes and constants
+    features/              # Feature modules
+    reels/            # Reels feature
+            data/         # Data layer (repositories, data sources)
+            domain/       # Domain layer (entities, use cases)
+            presentation/ # Presentation layer (pages, widgets, BLoC)
+        splash/           # Splash screen feature
+    main.dart             # App entry point
 
 ## Key Dependencies
 
